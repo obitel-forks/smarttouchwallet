@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="org.vikulin.smarttouchwallet.MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        android:background="@drawable/side_nav_bar">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:popupTheme="@style/AppTheme.PopupOverlay" >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="centerInside"
+                android:src="@mipmap/smarttouch"
+                android:onClick="onClickExchange"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SmartTouch Wallet"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrice"/>
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout android:id="@+id/balance"
+        android:layout_below="@id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="26dp"
+            android:text="0$"
+            android:paddingTop="30dp"
+            android:paddingBottom="30dp"
+            android:textAlignment="center"
+            android:textColor="@color/primary_text"/>
+    </LinearLayout>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/add_wallet"
+        android:layout_below="@id/balance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@drawable/ic_add_24dp"
+        app:backgroundTint="#03A4FC"
+        android:scaleType="centerInside"
+        android:onClick="addWallet"
+        />
+    <View
+        android:id="@+id/delimiter"
+        android:layout_below="@id/add_wallet"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/secondary_text" />
+    <ExpandableListView
+        android:layout_below="@id/delimiter"
+        android:id="@+id/account_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        />
+</RelativeLayout>
