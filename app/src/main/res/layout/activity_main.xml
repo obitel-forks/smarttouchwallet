@@ -3,8 +3,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <include
-        android:id="@+id/header"
+        android:id="@+id/wallets"
         layout="@layout/app_bar_drawer_w"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
+
 </RelativeLayout>

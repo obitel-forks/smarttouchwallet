@@ -29,8 +29,6 @@ import android.view.Window;
 import android.widget.ExpandableListAdapter;
 import android.widget.ExpandableListView;
 import android.widget.ImageView;
-import android.widget.ListAdapter;
-import android.widget.ListView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -120,6 +118,9 @@ public class MainActivity extends AppCompatActivity {
         if(adapter.getGroupCount()==0){
             showTooltip(addWallet, getString(R.string.create), Tooltip.Gravity.TOP, R.layout.tooltip_layout);
         }
+
+        View footerView = ((LayoutInflater) this.getSystemService(Context.LAYOUT_INFLATER_SERVICE)).inflate(R.layout.main_activity_footer, null, false);
+        lv.addFooterView(footerView);
     }
 
     public void writeFile(File keyFile, String content) throws IOException {
