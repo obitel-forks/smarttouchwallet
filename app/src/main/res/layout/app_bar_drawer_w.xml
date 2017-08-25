@@ -121,6 +121,24 @@
                 android:src="@drawable/pay_300px_r"
                 android:scaleType="fitEnd"
                 android:background="@drawable/button"/>
+            <ImageButton
+                android:id="@+id/imageButtonExchange"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:padding="5dp"
+                android:src="@drawable/exchange_300px_r"
+                android:scaleType="fitEnd"
+                android:background="@drawable/button"/>
+            <ImageButton
+                android:id="@+id/imageButtonSettings"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:padding="5dp"
+                android:src="@drawable/settings_300px_r"
+                android:scaleType="fitEnd"
+                android:background="@drawable/button"/>
         </LinearLayout>
     </LinearLayout>
 </RelativeLayout>
