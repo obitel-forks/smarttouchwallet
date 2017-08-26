@@ -100,7 +100,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="4"
                 android:padding="5dp"
-                android:src="@drawable/home_alt_300px"
+                android:src="@drawable/home_300px"
                 android:scaleType="fitEnd"
                 android:background="@drawable/button"/>
             <ImageButton
@@ -109,7 +109,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="4"
                 android:padding="5dp"
-                android:src="@drawable/topup_300px_r"
+                android:src="@drawable/topup_300px"
                 android:scaleType="fitEnd"
                 android:background="@drawable/button"/>
             <ImageButton
@@ -118,7 +118,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="4"
                 android:padding="5dp"
-                android:src="@drawable/pay_300px_r"
+                android:src="@drawable/pay_300px"
                 android:scaleType="fitEnd"
                 android:background="@drawable/button"/>
             <ImageButton
@@ -127,7 +127,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="4"
                 android:padding="5dp"
-                android:src="@drawable/exchange_300px_r"
+                android:src="@drawable/exchange_300px"
                 android:scaleType="fitEnd"
                 android:background="@drawable/button"/>
             <ImageButton
@@ -136,7 +136,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="4"
                 android:padding="5dp"
-                android:src="@drawable/settings_300px_r"
+                android:src="@drawable/settings_300px"
                 android:scaleType="fitEnd"
                 android:background="@drawable/button"/>
         </LinearLayout>
