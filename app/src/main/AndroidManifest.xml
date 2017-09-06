@@ -14,9 +14,9 @@
         android:required="false" />
 
     <application
-        android:icon="@mipmap/smarttouch"
+        android:icon="@mipmap/app_icon"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/smarttouch"
+        android:roundIcon="@mipmap/app_icon"
         android:name=".MainApplication"
         android:resizeableActivity="true"
         android:allowBackup="true"

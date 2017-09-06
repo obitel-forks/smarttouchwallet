@@ -28,6 +28,7 @@ import android.view.View;
 import android.view.Window;
 import android.widget.ExpandableListAdapter;
 import android.widget.ExpandableListView;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
@@ -114,7 +115,7 @@ public class MainActivity extends AppCompatActivity {
         TextView emptyText = (TextView)findViewById(android.R.id.empty);
         lv.setEmptyView(emptyText);
         lv.setAdapter(adapter);
-        final FloatingActionButton addWallet = (FloatingActionButton) findViewById(R.id.add_wallet);
+        final ImageButton addWallet = (ImageButton) findViewById(R.id.add_wallet_button);
         if(adapter.getGroupCount()==0){
             showTooltip(addWallet, getString(R.string.create), Tooltip.Gravity.TOP, R.layout.tooltip_layout);
         }

@@ -23,7 +23,6 @@
             android:layout_height="0dp"
             android:layout_weight="1"
             android:orientation="horizontal"
-            android:background="@drawable/button"
             android:gravity="center_vertical"
             android:clickable="true"
             android:onClick="onClick">
@@ -53,7 +52,7 @@
             android:layout_height="0dp"
             android:layout_weight="1"
             android:orientation="horizontal"
-            android:background="@drawable/button"
+
             android:gravity="center_vertical"
             android:clickable="true"
             android:onClick="onClick">
@@ -83,7 +82,7 @@
             android:layout_height="0dp"
             android:layout_weight="1"
             android:orientation="horizontal"
-            android:background="@drawable/button"
+
             android:gravity="center_vertical"
             android:clickable="true"
             android:onClick="onClick">
@@ -111,7 +110,7 @@
             android:layout_height="0dp"
             android:layout_weight="1"
             android:orientation="horizontal"
-            android:background="@drawable/button"
+
             android:gravity="center_vertical"
             android:clickable="true"
             android:onClick="onClick">
@@ -139,7 +138,7 @@
             android:layout_height="0dp"
             android:layout_weight="1"
             android:orientation="horizontal"
-            android:background="@drawable/button"
+
             android:gravity="center_vertical"
             android:clickable="true"
             android:onClick="onClick">
@@ -167,7 +166,7 @@
             android:layout_height="0dp"
             android:layout_weight="1"
             android:orientation="horizontal"
-            android:background="@drawable/button"
+
             android:gravity="center_vertical"
             android:clickable="true"
             android:onClick="onClick">

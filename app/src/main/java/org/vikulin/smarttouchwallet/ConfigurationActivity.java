@@ -364,7 +364,7 @@ public class ConfigurationActivity extends ListActivity {
         msg.setText(Html.fromHtml(pp));
         AlertDialog.Builder ab = new AlertDialog.Builder(ConfigurationActivity.this);
         ab.setTitle("SmartTouch Wallet")
-                .setIcon(R.mipmap.smarttouch)
+                .setIcon(R.mipmap.app_icon)
                 .setView(view)
                 .setCancelable(false)
                 .setPositiveButton("Accept", new DialogInterface.OnClickListener() {
