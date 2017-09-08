@@ -24,5 +24,6 @@
     <color name="buyBackgroundColor">#0B1220</color>
     <color name="contactColor">#4e4e4e</color>
     <color name="gray">#A8A8A8</color>
+    <color name="menuColor">#47536D</color>
 
 </resources>

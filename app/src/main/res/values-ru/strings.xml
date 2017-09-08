@@ -102,4 +102,8 @@
     <string name="tokens">Токены:</string>
     <string name="network_error">Ошибка в сети, попробуйте позже...</string>
     <string name="domain_available">Домен доступен</string>
+    <string name="home">Home</string>
+    <string name="funds">Funds</string>
+    <string name="pay">Pay</string>
+    <string name="settings">Settings</string>
 </resources>

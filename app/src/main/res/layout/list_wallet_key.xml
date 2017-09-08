@@ -27,7 +27,7 @@
         android:layout_alignParentBottom="true"
         android:textStyle="normal"
         android:textSize="15dp"
-        android:textColor="@color/primary_text"
+        android:textColor="@color/colorPrice"
         android:ellipsize="middle"
         android:maxLines="1"
         android:paddingTop="5dp"

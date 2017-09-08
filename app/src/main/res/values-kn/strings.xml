@@ -102,4 +102,8 @@
     <string name="tokens">ಟೋಕನ್ಗಳು:</string>
     <string name="network_error">Network error, try again later</string>
     <string name="domain_available">Domain is available</string>
+    <string name="home">Home</string>
+    <string name="funds">Funds</string>
+    <string name="pay">Pay</string>
+    <string name="settings">Settings</string>
 </resources>

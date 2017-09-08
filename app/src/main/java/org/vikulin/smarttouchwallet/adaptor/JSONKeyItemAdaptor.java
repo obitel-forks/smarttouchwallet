@@ -28,7 +28,7 @@ public class JSONKeyItemAdaptor<L extends List<?>> extends BaseExpandableListAda
     protected List<List<JSONObject>> data = null;
 
     private static int[] groupIcons = new int[] {
-        R.drawable.ether, R.drawable.btc, R.drawable.dash, R.drawable.zcash, R.drawable.ec, R.drawable.litecoin
+        R.drawable.eth, R.drawable.btc, R.drawable.dash, R.drawable.zcash, R.drawable.ec, R.drawable.litecoin
     } ;
 
     public JSONKeyItemAdaptor(Context context, List<List<JSONObject>> data) {
@@ -113,7 +113,7 @@ public class JSONKeyItemAdaptor<L extends List<?>> extends BaseExpandableListAda
         } else {
             holder = (CurrencyHolder)row.getTag();
         }
-        holder.balance.setText("0 ETH");
+        holder.balance.setText("0");
         holder.currencyIcon.setImageDrawable(context.getDrawable(groupIcons[groupIndex]));
         return row;
     }
